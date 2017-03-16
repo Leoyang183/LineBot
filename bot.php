@@ -1,7 +1,7 @@
 <?php
 
-require_once "/vendor/autoload.php";
-require_once "/config.php";
+require_once "/app/vendor/autoload.php";
+require_once "/app/config.php";
 echo $longToken;
 echo __DIR__;
 die();
