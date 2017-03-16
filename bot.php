@@ -1,6 +1,6 @@
 <?php
-require_once "/vendor/autoload.php";
-require_once "/config.php";
+require_once "../vendor/autoload.php";
+require_once "../config.php";
 // use LINE\LINEBot;
 // use LINE\LINEBot\HTTPClient\GuzzleHTTPClient;
 // use LINE\LINEBot\Message\MultipleMessages;
