@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__."/vendor/autoload.php";
-require_once __DIR__."/config.php";
+require_once __DIR__."/config1.php";
 // use LINE\LINEBot;
 // use LINE\LINEBot\HTTPClient\GuzzleHTTPClient;
 // use LINE\LINEBot\Message\MultipleMessages;
@@ -17,7 +17,7 @@ require_once __DIR__."/config.php";
 
 $json_string = file_get_contents('php://input');
 
-$file = fopen("/log/log.json", "a+");
+$file = fopen(__DIR__."/log/log.json", "a+");
 fwrite($file, $json_string."\n");
 $json_obj = json_decode($json_string);
 
